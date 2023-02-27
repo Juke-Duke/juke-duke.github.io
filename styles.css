@@ -6,3 +6,11 @@
     border: 5px solid #000;
     padding: 10px;
 }
+
+.red-hover:hover {
+    background-color: rgba(212, 81, 81, .7);
+}
+
+.center {
+    text-align: center;
+}
