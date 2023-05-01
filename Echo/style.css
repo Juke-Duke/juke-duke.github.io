@@ -1,0 +1,68 @@
+body {
+  font-family: Garamond, Arial, sans-serif;
+  margin: 2em;
+  background-image: url(Images/SpiralBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-family: Garamond, Arial, sans-serif;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#GameButtonArea {
+  text-align: center;
+  background-image: url("Images/EchoPad.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+  margin: auto;
+}
+
+#StrikeArea {
+  margin: auto;
+  padding-right: 60px;
+}
+
+.hidden {
+  display: none;
+}
+
+.echopad {
+  position: relative;
+}
+
+#timericon {
+  height: 50px;
+}
+
+.btn {
+  margin: auto;
+  height: 94px;
+  width: 94px;
+  background-color: #31b369;
+}
+
+.wrap button:active {
+  background-color: #45ebaa;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.wrap {
+  padding-top: 145px;
+  margin-right: 30px;
+}
+
+.lit {
+  background-color: #45ebaa;
+}

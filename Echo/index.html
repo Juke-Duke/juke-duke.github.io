@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Images/MemoryGame.ico" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="/script.js" defer></script>
+
+    <title>Echo</title>
+  </head>
+
+  <body>
+    <h1>Echo - MemoryGame</h1>
+
+    <p style="text-align: center">Think you got good memory? Keep track of the pattern and echo it!</p>
+
+    <div style="display: flex; width: 100%; justify-content: space-between;"> 
+      <button style="text-align: center; width: 100px" id="StartBtn" onclick="StartGame()">Start</button>
+      <button style="text-align: center; width: 100px" id="StopBtn" class="hidden" onclick="StopGame()">Stop</button>
+      <div id="StrikeArea">
+        <img src="Images/XIcon.ico" id="strike1" />
+        <img src="Images/XIcon.ico" id="strike2" />
+        <img src="Images/XIcon.ico" id="strike3" />
+      </div>
+      <img src="Images/Timer.png" id="timericon"/>
+      <span id="timer">
+        180
+      </span>
+    </div>
+
+    <div id="GameButtonArea">
+      <div class="wrap">
+        <button class="btn" id="button1" onclick="Guess(1)" onmousedown="StartTone(1)" onmouseup="StopTone()"></button>
+        <button class="btn" id="button2" onclick="Guess(2)" onmousedown="StartTone(2)" onmouseup="StopTone()"></button>
+        <button class="btn" id="button3" onclick="Guess(3)" onmousedown="StartTone(3)" onmouseup="StopTone()"></button>
+        <br>
+        <button class="btn" id="button4" onclick="Guess(4)" onmousedown="StartTone(4)" onmouseup="StopTone()"></button>
+        <button class="btn" id="button5" onclick="Guess(5)" onmousedown="StartTone(5)" onmouseup="StopTone()"></button>
+        <button class="btn" id="button6" onclick="Guess(6)" onmousedown="StartTone(6)" onmouseup="StopTone()"></button>
+        <br>
+        <button class="btn" id="button7" onclick="Guess(7)" onmousedown="StartTone(7)" onmouseup="StopTone()"></button>
+        <button class="btn" id="button8" onclick="Guess(8)" onmousedown="StartTone(8)" onmouseup="StopTone()"></button>
+        <button class="btn" id="button9" onclick="Guess(9)" onmousedown="StartTone(8)" onmouseup="StopTone()"></button>
+      </div>
+    </div>
+  </body>
+</html>
