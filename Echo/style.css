@@ -1,8 +1,8 @@
 body {
   font-family: Garamond, Arial, sans-serif;
   margin: 2em;
-  background-image: url(Images/SpiralBG.png);
-  background-repeat: no-repeat;
+  background-image: url(Images/SteelBG.png);
+  background-repeat: repeat;
   background-size: cover;
   color: white;
 }
@@ -28,7 +28,8 @@ button {
 
 #StrikeArea {
   margin: auto;
-  padding-right: 60px;
+  padding: 40px 40px 50px 0px;
+  max-width: 500px;
 }
 
 .hidden {
