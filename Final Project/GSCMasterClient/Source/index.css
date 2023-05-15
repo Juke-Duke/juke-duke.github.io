@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Quadrabet';
+  src: url('../wwwroot/Fonts/Quadrabet.otf');
+}
+
+@font-face {
+  font-family: 'PokemonGBC';
+  src: url('../wwwroot/Fonts/PokemonGBC.ttf');
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Quadrabet', Consolas;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Consolas, "Courier New",
+    monospace;
+}
