@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "target": "es6",
+      "strict": true,
+      "strictFunctionTypes": true,
+      "noImplicitReturns": true,
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "typeRoots": ["./Source/Types", "./node_modules/@types"],
+      "outDir": "dist",
+      "baseUrl": ".",
+      "paths": {
+        "*": ["node_modules/*", "Source/Types/*.d.ts"]
+      }
+    },
+    "include": ["Source/**/*", "bin/*", "config/*"]
+  }
